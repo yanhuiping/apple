@@ -63,7 +63,14 @@
 @import "Yo-master/style/lib/ani/sling";
 @import "Yo-master/style/lib/ani/wobble";
 @import "Yo-master/style/lib/ani/hinge";
-
+@font-face{
+  font-family:'abc';
+  src:url('fonts/myriad-set-pro_extrathin.woff');
+}
+@font-face{
+  font-family:'abcblod';
+  src:url('fonts/myriad-set-pro_bold.woff');
+}
 *{
   list-style: none;
   margin:0;
@@ -130,6 +137,9 @@ $z-size:900px;
     transform:scale(1,1);
     display:block;
 
+  }
+  .BAGBAG{
+    display:none;
   }
   .search-box{
     z-index:90000;
@@ -822,9 +832,10 @@ margin-left:44px;
   h3{
     color:#333;
     font-size:12px;
-    font-weight:600;
+    //font-weight:600;
     //width:196px;
     height:20px;
+    font-family:'abcblod';
   }
 }
 .directory-column-section ~ .directory-column-section{
@@ -842,7 +853,7 @@ margin-left:44px;
       text-decoration:none;
       font-size:12px;
       color:#666;
-      //font-family:"Myriad Set Pro";
+      font-family:"abc";
 
       &:hover{
         text-decoration:underline;

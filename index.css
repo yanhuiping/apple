@@ -2914,6 +2914,14 @@
   -webkit-animation-name: hinge;
   animation-name: hinge; }
 
+@font-face {
+  font-family: 'abc';
+  src: url("fonts/myriad-set-pro_extrathin.woff"); }
+
+@font-face {
+  font-family: 'abcblod';
+  src: url("fonts/myriad-set-pro_bold.woff"); }
+
 * {
   list-style: none;
   margin: 0;
@@ -2948,6 +2956,9 @@
 .header.searching .bagc {
   transform: scale(1, 1);
   display: block; }
+
+.header.searching .BAGBAG {
+  display: none; }
 
 .header.searching .search-box {
   z-index: 90000; }
@@ -3641,8 +3652,8 @@
   .directory-column-section h3 {
     color: #333;
     font-size: 12px;
-    font-weight: 600;
-    height: 20px; }
+    height: 20px;
+    font-family: 'abcblod'; }
 
 .directory-column-section ~ .directory-column-section {
   padding-top: 20px; }
@@ -3656,7 +3667,8 @@
       display: block;
       text-decoration: none;
       font-size: 12px;
-      color: #666; }
+      color: #666;
+      font-family: "abc"; }
       .directory-column-section-list .directory-column-section-item .item-link:hover {
         text-decoration: underline;
         color: #333; }

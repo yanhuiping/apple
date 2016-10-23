@@ -20,6 +20,7 @@ $(function(){
             display:'none'
         })
         body.removeClass('screen')
+       
     })
     headercurter.on('click',function(){
         header.removeClass("searching");
